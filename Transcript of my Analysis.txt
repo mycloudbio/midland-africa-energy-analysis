@@ -1,0 +1,44 @@
+*Peak Generation Analysis Final Documentation, Conclusion, and Suggestion
+Peak hours are between 9am to 4pm
+From 7am power generation starts climbing and falls off by 4pm onwards
+Almost 0 power generation from 5pm onwards
+Based on this analysis Battery charging optimization should be schedule during peak PV
+
+* Load Pattern Recognition Final Documentation, Conclusion, and Suggestion
+Load demand is quite minimal outside the peak periods which gradually increase from 1pm to 7pm
+Load power drop drastically around 6pm, quite an ANOMALY
+Very low Load power was observed from 8pm onwards, during midnight to early morning hours.
+High mid-day to evening demand, possibly misaligned with peak solar generation.
+
+
+* Load Shaving Opportunities Final Documentation, Conclusion, and Suggestion
+Started off with grouping data by hour of day to find average load across the day, then identified peak demand periods using PLoad(W).
+Futhermore, i compared load peaks with available PV generation (charger power(W)) and battery power (batt power(W)).
+The goal was to assess mismatch and cheak if load shifting is neccessary or shaving strategies
+I observed that Load spikes between 6 PM and 9 PM, battery output is partially supporting load also
+Implement smart load control systems, and Increase battery storage to cover peak periods might be something we should consider
+
+
+*System Optimization Timing Final Documentation, Conclusion, and Suggestion
+Started off with Identify the most efficient time windows to operate electrical loads - Grouped the data by hour and calculated Mean Value.
+Futhermore, i observed Charger Power is highest betweenee 9am and 1pm, Battery is charging, and Load is lowest
+Battery heavily discharged between 7am and 3pm - highest discharge happened around 9am
+
+
+* Battery Usage & Health Assessment Final Documentation, Conclusion, and Suggestion
+Morning Period between 12am – 6am - Battery stays nearly constant at ~72 W, indicating no active charging or discharging possibly idle, 
+or minor trickle use Then from 7am – 3am Battery enters deep discharge, reaching -489 W at 9am 
+This indicates high demand within this period of the day Late Afternoon period between 4pm – 6pm Battery transitions back into positive territory, 
+showing charging starts again Evening 7pm – 11pm Sudden charging spike at 7pm (473 W) despite charger reading 0.00 could suggest grid charging, 
+or anomaly Then returns to standby mode ~72 W from 8pm onward - Suspicious spike at 7pm (473 W) despite 0.00 charging power 
+Possibly an anomaly, grid supplement, or logging error, it needs further investigation!
+
+
+
+* Summary:
+While the system is performing within expected parameters for an off-grid setup, the lack of grid fallback introduces vulnerability during early morning hours. 
+Strategic scheduling and capacity planning will enhance system resilience and optimize battery health.
+
+No Grid Failover will result to Full System Vulnerability (Entire load depends on PV generation and battery reserve).
+
+I'm Suggesting Introduction of grid failover for critical loads and expand battery capacity to support vulnerable hours.
