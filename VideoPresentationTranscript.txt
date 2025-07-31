@@ -1,11 +1,14 @@
 Hello Midland Team,
 
-My name is Igbaji Barnabas Obande, and I’m excited to present the insights I gathered during this technical exercise. As a Junior Analyst applicant, I approached this challenge not only to demonstrate my data skills, but also to show my commitment to learning, growing, and contributing meaningfully to a team like yours.
+My name is Igbaji Barnabas Obande, and I’m excited to present the insights I gathered during this technical exercise. 
+As a Junior Analyst applicant, I approached this challenge not only to demonstrate my data skills, but also to show my commitment to learning, growing, and contributing meaningfully to a team like yours.
 
-This project gave me the opportunity to dive into real-world off-grid energy data — and I took a research-driven approach to tackle it. When I encountered unfamiliar concepts, I didn’t stop there. I leaned on credible resources, AI tools like OpenAI and Google Gemini, and energy literature to strengthen my analysis and back up every recommendation with data and reasoning.
+This project gave me the opportunity to dive into real-world off-grid energy data — and I took a research-driven approach to tackle it. 
+When I encountered unfamiliar concepts, I didn’t stop there. I leaned on credible resources, AI tools like OpenAI and Google Gemini, and energy literature to strengthen my analysis and back up every recommendation with data and reasoning.
 
 I used Jupyter Notebook in Anaconda for this entire exercise, working with Python to analyze load patterns, battery health, solar generation windows, and system timing optimization. Every chart and insight was carefully validated, ensuring the end result is something your team can confidently build on.
 
-As someone new in the field, I’m eager to learn from the experienced analysts and engineers at Midland. But I also bring value — a deep curiosity, initiative, technical literacy, and the soft skill of turning complexity into clarity. I’m excited by Midland’s mission to power Africa sustainably, and I’m ready to be part of a team driving change from the ground up.
+As someone new in the field, I’m eager to learn from the experienced analysts and engineers at Midland. But I also bring value — a deep curiosity, initiative, technical literacy, and the soft skill of turning complexity into clarity. 
+I’m excited by Midland’s mission to power Africa sustainably, and I’m ready to be part of a team driving change from the ground up.
 
 Thank you for the opportunity.
